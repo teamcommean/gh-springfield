@@ -1,0 +1,21 @@
+<div class="space-50"></div>
+<div class="container">
+
+    <h1>Classes</h1>
+    <p>{{classesCtrl.message}}</p>
+
+    <div class="row">
+        <div class="col-md-12 text-center wow animated fadeInUp">
+            <h2>Bizwrap built for Minimal business Projects</h2>
+            <h3 class="subtitle">With Clean and Modern Design</h3>
+        </div>
+        <div class="space-70"></div>
+
+        <div class="col-md-3 col-sm-6" ng-repeat="featureItem in classesCtrl.features">
+            <div class="services-box">
+                <feature info="featureItem"></feature>
+            </div>
+        </div>
+    </div><!--row end-->
+
+</div>

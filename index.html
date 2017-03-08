@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html ng-app="gracie">
+	<head>
+		<title>Gracie Humaita Springfield IL</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!--ion icon fonts css-->
+        <link href="assets/icons/css/ionicons.css" rel="stylesheet">
+        <!--custom css-->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <!--google  font family-->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,700,800,500' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
+        <!--flex slider css-->
+        <link href="assets/css/flexslider.css" rel="stylesheet">
+        <!--animated  css-->
+        <link href="assets/css/animate.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body>
+		<header class="header-main" ng-include="'templates/pages/shared/navigation.html'"></header><!--header main end-->
+
+        <div ng-view></div>
+
+        <div class="space-70"></div><div class="space-30"></div>
+
+        <div class="container" ng-include="'templates/pages/shared/recent.html'"></div><!--recent work container end-->
+
+        <div class="space-70"></div>
+
+        <section id="content-region-1" class="padding-40" ng-include="'templates/pages/shared/features.html'"></section><!--features end-->
+
+        <div class="space-70"></div>
+
+        <div class="container" ng-include="'templates/pages/shared/latest.html'"></div><!--container recent news end-->
+
+        <div class="space-50"></div>
+
+        <div id="footer" ng-include="'templates/pages/shared/footer.html'"></div>
+
+		<!--scripts-->
+		<script src="//code.angularjs.org/1.4.3/angular.min.js"></script>
+		<script src="//code.angularjs.org/1.4.3/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.3.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.sticky.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.mixitup.min.js" type="text/javascript"></script>
+    <script src="assets/js/wow.min.js" type="text/javascript"></script>
+    <script src="assets/js/gracie.js" type="text/javascript"></script>
+
+    <!-- Modules -->
+		<script src="assets/js/app.js"></script>
+
+    <!-- Controllers -->
+		<script src="assets/js/controllers/MainController.js"></script>
+    <script src="assets/js/controllers/InstructorsController.js"></script>
+    <script src="assets/js/controllers/ClassesController.js"></script>
+    <script src="assets/js/controllers/ContactController.js"></script>
+
+    <!-- Directives -->
+    <script src="assets/js/directives/feature.js"></script>
+	</body>
+</html>

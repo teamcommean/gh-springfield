@@ -1,0 +1,7 @@
+{
+    "require": {
+        "swiftmailer/swiftmailer": "@stable",
+        "mailgun/mailgun-php": "~1.7.2",
+        "silex/silex": "~1.3"
+    }
+}
