@@ -1,7 +1,3 @@
-/*app.controller('MainController', function(){
-	this.message = 'wired up';
-});
-*/
 // another file and/or another anonymous function
 (function(){   
  // using the function form of use-strict...

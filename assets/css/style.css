@@ -268,13 +268,19 @@ h3.heading-sec{
 .navbar-brand{
     color:#555 !important;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 3em;
     text-transform: uppercase;
     padding:0;
 }
 
 .navbar-brand img{
     float:left;
+}
+
+.navbar-brand h2{
+    float: left;
+    line-height: 1.4;
+    font-weight: 800;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
