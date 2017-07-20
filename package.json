@@ -1,0 +1,27 @@
+{
+  "name": "gh-springfield",
+  "version": "1.0.0",
+  "description": "website for gracie humaita springfield",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamcommean/gh-springfield.git"
+  },
+  "author": "david hope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamcommean/gh-springfield/issues"
+  },
+  "homepage": "https://github.com/teamcommean/gh-springfield#readme",
+  "devDependencies": {
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-bootstrap": "^0.12.2",
+    "angular-route": "^1.6.5",
+    "bootstrap": "^3.3.7",
+    "webpack": "^3.3.0"
+  }
+}
