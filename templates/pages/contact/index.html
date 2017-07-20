@@ -1,7 +1,7 @@
 <div class="space-50"></div>
 <div class="container">
     <h1>Contact Us</h1>
-    <p>{{contactCtrl.pageTitle}}</p>
+    <p>{{contactCtrl.message}}</p>
 
     <div class="row">
         <div class="col-md-12 text-center wow animated fadeInUp">
@@ -13,33 +13,33 @@
 
         <div class="col-md-3 col-sm-6" ng-repeat="featureItem in contactCtrl.features">
             <div class="services-box">
-                <feature></feature>
+                <feature info="featureItem"></feature>
             </div>
         </div>
-
+        
         <div class="col-md-5">
-            <div class="footer-col">
+            <div class="form-group">
                 <h3>Get in touch</h3>
                 <form ng-model="contactCtrl">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Name...">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="email" class="form-control" placeholder="Email...">
-                        </div>
-                        <div class="col-md-12">
-                            <input type="text" class="form-control" placeholder="Subject...">
-                        </div>
-                        <div class="col-md-12">
-                            <textarea class="form-control" placeholder="Massage..." rows="7"></textarea>
-                        </div>
-                        <div class="col-md-12 text-right">
-                            <button type="submit" ng-click="sendMail" class="btn btn-lg btn-primary">Send massege</button>
-                        </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name...">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email...">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject...">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Message..." rows="7"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" ng-click="sendMail" class="btn btn-lg btn-primary">Send message</button>
                     </div>
                 </form>
             </div>
-        </div><!--get in touch col end-->
+        </div>
+        <!--get in touch col end-->
+
     </div><!--row end-->
 </div>

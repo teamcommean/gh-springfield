@@ -11,7 +11,7 @@
   angular.module('gracie')
     .controller('ContactController',['$scope','$http', function($scope,$http){
 
-		this.pageTitle = 'all wired up';
+		this.message = 'all wired up';
 		this.active = 'contact';
 		this.features = [	
 							{
@@ -34,7 +34,11 @@
 							    title: 'thumbsup',
 							    text: 'asd al a  fkdk  akj fkdjfla ld la dfl alfd'
 						  	}
-					  	]
+					  	];
+
+		$scope.$on('$viewContentLoaded', function(){
+	  		console.log('contact loaded');
+		 });
 
 		
 		this.sendMail = function(a){
@@ -88,7 +92,7 @@
 		        //console.log('status: ' + status);
 		      });		
 		};
-
+		
 	}]);
 
 })();
